@@ -34,7 +34,6 @@ public class LuckPermsProvider implements IMetadataProvider {
 	public String[] getPlayerPrefixAndSuffix(GameProfile player) {
 		try {
 			CachedMetaData metaData = this.getMetaData(player);
-            assert metaData != null;
 			if (metaData == null){
 				return new String[]{"",""};
 			}

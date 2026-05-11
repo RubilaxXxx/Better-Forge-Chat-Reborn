@@ -8,6 +8,7 @@ bin
 *.iws
 *.iml
 .idea
+.runs/*
 
 build
 .gradle
